@@ -1,0 +1,37 @@
+{
+  "isSuccessful": true,
+  "quotes": [
+    {
+      "id": 4,
+      "quote": "Never regret anything that made you smile",
+      "author": "AMANDEEP SINGLA",
+      "thumbnail": "https:\/\/www.simplifiedcoding.net\/\/demos\/\/marvel\/\/ironman.jpg",
+      "created_at": null,
+      "updated_at": null
+    },
+    {
+      "id": 3,
+      "quote": "Every moment is a fresh beginning",
+      "author": "TS Eliot",
+      "thumbnail": "https:\/\/www.simplifiedcoding.net\/\/demos\/\/marvel\/\/ironman.jpg",
+      "created_at": null,
+      "updated_at": null
+    },
+    {
+      "id": 2,
+      "quote": "Change the world by being yourself",
+      "author": "Amy Poehler",
+      "thumbnail": "https:\/\/www.simplifiedcoding.net\/\/demos\/\/marvel\/\/ironman.jpg",
+      "created_at": null,
+      "updated_at": null
+    },
+    {
+      "id": 1,
+      "quote": "Love for all, Hatred for none",
+      "author": "Khalifatul Masih III",
+      "thumbnail": "https:\/\/www.simplifiedcoding.net\/\/demos\/\/marvel\/\/ironman.jpg",
+      "created_at": null,
+      "updated_at": null
+    }
+  ]
+}

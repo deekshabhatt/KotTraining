@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_main"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.deeksha.androidkotlintraining.ui.home.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/home_to_cab_action"
+            app:destination="@+id/cabListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/productFragment"
+        android:name="com.deeksha.androidkotlintraining.ui.fragment.ProductFragment"
+        android:label="Quotes"
+        tools:layout="@layout/fragment_product" />
+
+    <fragment
+        android:id="@+id/cabListFragment"
+        android:name="com.deeksha.androidkotlintraining.ui.home.cab.CabListFragment"
+        android:label="fragment_result_list"
+        tools:layout="@layout/fragment_cabs">
+        <action
+            android:id="@+id/location_to_map"
+            app:destination="@+id/googleMapFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/googleMapFragment"
+        android:name="com.deeksha.androidkotlintraining.ui.home.cab.GoogleMapFragment"
+        android:label="fragment_google_map"
+        tools:layout="@layout/fragment_google_map">
+
+        <argument
+            android:name="cab"
+            app:argType="com.deeksha.androidkotlintraining.data.entities.Cab" />
+    </fragment>
+</navigation>

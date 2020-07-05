@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1003464319351",
+    "firebase_url": "https://kotlintraininganalytics.firebaseio.com",
+    "project_id": "kotlintraininganalytics",
+    "storage_bucket": "kotlintraininganalytics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003464319351:android:1f0f151d2c21d8609c4172",
+        "android_client_info": {
+          "package_name": "com.deeksha.androidkotlintraining"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1003464319351-2ksak9v1qdgrvkc1favm42c44ej9kr6v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFih-d9dJ31U1h7IHOQteGiFinu69PxsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1003464319351-2ksak9v1qdgrvkc1favm42c44ej9kr6v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
